@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feddema Works — Unity tools</title>
+<meta name="description" content="Unity tools by Feddema Works: Harvestable Ground Cover for HDRP. Support and contact.">
+<style>
+  :root { --bg:#f6f5f1; --fg:#1f2421; --muted:#5b625d; --accent:#3d6b3a; --card:#ffffff; --line:#e2e0d8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151816; --fg:#e8ebe7; --muted:#a3aaa4; --accent:#8fc28a; --card:#1d211e; --line:#2c312d; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:baseline; gap:16px; flex-wrap:wrap; margin-bottom:32px; }
+  header a { color:var(--muted); text-decoration:none; margin-left:16px; }
+  h1 { font-size:1.4rem; margin:0; }
+  h2 { font-size:1.6rem; margin:40px 0 8px; }
+  h3 { font-size:1.1rem; margin:24px 0 4px; }
+  img { width:100%; height:auto; border-radius:8px; display:block; }
+  .lead { color:var(--muted); margin-top:0; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px; margin:16px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px; }
+  .btn { display:inline-block; background:var(--accent); color:var(--bg); padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600; }
+  ul { padding-left:20px; }
+  code, a { overflow-wrap:anywhere; }
+  footer { margin-top:56px; color:var(--muted); font-size:.9rem; border-top:1px solid var(--line); padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Feddema Works</h1>
+    <nav><a href="#ground-cover">Assets</a><a href="#support">Support</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <section id="ground-cover">
+    <img src="img/key.png" alt="Harvestable Ground Cover: a sunset meadow with trees and a pond">
+    <h2>Harvestable Ground Cover for HDRP</h2>
+    <p class="lead">Painted terrain grass that finally renders in HDRP, and players can pull, cut and pick, plant by plant.</p>
+    <!-- once the asset is live, swap this line for: <a class="btn" href="ASSET STORE URL">View on the Unity Asset Store</a> -->
+    <p><strong>Coming soon to the Unity Asset Store.</strong></p>
+    <div class="grid">
+      <img src="img/screenshot_02_pond_lilies.jpg" alt="Pond with water lilies surrounded by grass and ferns">
+      <img src="img/screenshot_08_harvest_prompt.jpg" alt="Harvest prompt over a bush">
+      <img src="img/screenshot_03_cleared_campsite.jpg" alt="A circle cleared for a campsite">
+    </div>
+    <ul>
+      <li>One-click import of your painted terrain detail layers</li>
+      <li>Harvest, clear, regrow, and save what players took</li>
+      <li>GPU instancing with no GameObjects; memory stays flat in large worlds</li>
+      <li>Scatter tool, a code API for procedural worlds, and full C# source</li>
+    </ul>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <div class="card">
+      <h3>Getting help</h3>
+      <p>Email <a href="mailto:feddemanathan@gmail.com">feddemanathan@gmail.com</a> with your Unity version, render pipeline and asset version, and
+      a screenshot or the console error if you have one. I aim to reply within two working days.</p>
+      <h3>Documentation</h3>
+      <p>The manual ships with the asset at <code>HarvestableGroundCover/Documentation/Manual.md</code>.</p>
+      <h3>Refunds</h3>
+      <p>Refunds are handled under the Unity Asset Store's refund policy.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Feddema Works<br>
+      Email: <a href="mailto:feddemanathan@gmail.com">feddemanathan@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>© 2026 Feddema Works. Unity is a trademark of Unity Technologies. Demo art is CC0 from Poly Haven.</footer>
+</main>
+</body>
+</html>
